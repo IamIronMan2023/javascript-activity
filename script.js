@@ -9,18 +9,8 @@ function reverseAText(text) {
 }
 
 function pascalCaseAText(text) {
-  let arrText = text.split(" ");
-  let arrResult = [];
-  let s;
-  for (let i = 0; i < arrText.length; i++) {
-    s = arrText[i];
-    arrResult.push(
-      s.charAt(0).toUpperCase() + s.substring(1, s.length).toLowerCase()
-    );
-    arrResult.push(" ");
-  }
-
-  return arrResult.join("");
+  //Add code to Pascal Case A Text
+  return "";
 }
 
 function runPascalCaseText() {
